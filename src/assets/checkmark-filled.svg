@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-checkmark-filled">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="checkmark-filled" clip-path="url(#clip-checkmark-filled)">
+    <path id="md-checkmark-circle" d="M256,48C141.6,48,48,141.6,48,256s93.6,208,208,208,208-93.6,208-208S370.4,48,256,48ZM213.3,366.9,106.7,260.3l29.9-29.9,76.8,76.8L375.5,145.1,405.4,175,213.3,366.9Z" fill="#9dc912"/>
+    <path id="md-checkmark-circle-2" data-name="md-checkmark-circle" d="M213.3,366.9,106.7,260.3l29.9-29.9,76.8,76.8L375.5,145.1,405.4,175,213.3,366.9Z" fill="#fff"/>
+  </g>
+</svg>

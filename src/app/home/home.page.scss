@@ -1,0 +1,10 @@
+ion-content {
+    --background: url(../../assets/background_full.jpg) no-repeat top center/cover fixed, #fff;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+ion-toolbar {
+    --background: transparent;
+}
