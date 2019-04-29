@@ -10,14 +10,33 @@
     <ion-buttons slot="end">
       <ion-button>
         <ion-icon slot="icon-only" src="../../assets/checkmark-filled.svg"></ion-icon>
+        <!-- <ion-icon slot="icon-only" color="success" name="md-checkmark-circle"></ion-icon> -->
       </ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content fullscreen="true" slot="fixed" >
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+    <div class="card">
+      <div class="header">
+        <div class="avatar">
+          <img src="../../assets/player104.png" alt="">
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="user-meta ion-text-center">
+          <h3 class="playername">Roger Federer</h3>
+          <h5 class="country">Switzerland</h5>
+          <h6 class="ranking">Current ranking: <ion-chip>
+              <ion-label>2</ion-label>
+            </ion-chip>
+          </h6>
+        </div>
+
+        <ion-button expand="full" color="primary">http://rogerfederer.com</ion-button>
+        <ion-button expand="full" color="secondary">@RogerFederer on Twitter</ion-button>
+        <ion-button expand="full" color="secondary">View profile at ATP</ion-button>
+
+      </div>
+    </div>
 </ion-content>

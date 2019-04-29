@@ -3,8 +3,65 @@ ion-content {
     position: relative;
     height: 100%;
     width: 100%;
+
+    ion-button {
+        margin-top: 1em;
+        margin-bottom: 1em
+    }
 }
 
 ion-toolbar {
     --background: transparent;
+}
+
+ion-chip {
+    --background: #9dc912;
+    --color: #fff;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+.header {
+    height: 200px; // 20vh;
+   
+    .avatar {
+        width: 160px; //40vw
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+
+        img {
+            display: block;
+            border-radius: 50%;
+            position: absolute;
+            bottom: calc(-1*(80px + 4px)); // -42px;
+            border: 8px solid #9Dc912;
+            background-color: #fff;
+        }
+    }
+}
+
+.card-body {
+    background-color: #ffffff;
+    padding: 30px;
+    height: calc( 100vh - (200px + 56px));
+    overflow: hidden;
+    .user-meta {
+        padding-top: 80px;
+
+        .playername {
+            font-size: 24px;
+            font-weight: 600;
+            color: #303940;
+        }
+
+        .country {
+            font-size: 90%;
+            color: #949ea6;
+            text-transform: uppercase;
+            margin: 0 auto;
+        }
+    }
 }
